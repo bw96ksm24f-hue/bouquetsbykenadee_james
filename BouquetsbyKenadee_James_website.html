@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BouquetsbyKenadee_James</title>
+<style>
+:root{
+  --pink:#f8d9e5; --deep:#c85f86; --cream:#fff9fb; --text:#5d4050; --white:#fff;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:var(--cream);color:var(--text)}
+nav{position:sticky;top:0;background:rgba(255,249,251,.95);padding:16px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #f1d5e0;z-index:2}
+.logo{font-weight:800;color:var(--deep);font-size:18px}
+nav a{margin-left:18px;text-decoration:none;color:var(--text);font-size:14px}
+.hero{padding:75px 8%;text-align:center;background:linear-gradient(145deg,#fff,#f8d9e5)}
+.badge{display:inline-block;background:#fff;border-radius:30px;padding:8px 16px;color:var(--deep);font-size:13px}
+h1{font-family:Georgia,serif;font-size:clamp(42px,8vw,76px);margin:20px 0 10px;color:#a94770}
+.hero p{font-size:18px;max-width:620px;margin:0 auto 28px;line-height:1.6}
+.btn{display:inline-block;background:var(--deep);color:white;text-decoration:none;padding:14px 24px;border-radius:28px;margin:5px;font-weight:700}
+.btn.alt{background:white;color:var(--deep);border:1px solid #e8a9c1}
+section{padding:65px 8%;max-width:1100px;margin:auto}
+h2{text-align:center;font-family:Georgia,serif;font-size:38px;color:#a94770;margin-top:0}
+.sub{text-align:center;margin:-10px auto 35px;max-width:600px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+.card{background:white;border:1px solid #f0dce4;border-radius:22px;padding:24px;text-align:center;box-shadow:0 8px 25px rgba(150,70,100,.07)}
+.card .emoji{font-size:38px}.price{font-weight:800;color:var(--deep);font-size:21px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.step{background:#fbe7ef;border-radius:22px;padding:24px}.step b{color:#a94770}
+.notice{background:#fff0f5;border-radius:25px;padding:28px;text-align:center}
+footer{background:#f3c9d9;text-align:center;padding:35px 20px;color:#713f55}
+.small{font-size:13px}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">🎀 BouquetsbyKenadee_James</div>
+  <div>
+    <a href="#bouquets">Bouquets</a><a href="#order">How to Order</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <span class="badge">📍 San Marcos, TX</span>
+  <h1>Pretty flowers for pretty moments. 💐</h1>
+  <p>Handcrafted bouquets made with love, creativity, and a whole lotta pretty blooms. 🎀</p>
+  <a class="btn" href="#bouquets">View Bouquets</a>
+  <a class="btn alt" href="#order">Order Now</a>
+</header>
+
+<section id="bouquets">
+<h2>Bouquet Menu 🎀</h2>
+<p class="sub">Choose your size, then customize the colors and flowers to make it yours.</p>
+<div class="cards">
+  <div class="card"><div class="emoji">🌷</div><h3>Mini Bouquet</h3><div class="price">$25</div></div>
+  <div class="card"><div class="emoji">🌸</div><h3>Small Bouquet</h3><div class="price">$40</div></div>
+  <div class="card"><div class="emoji">💐</div><h3>Medium Bouquet</h3><div class="price">$55</div></div>
+  <div class="card"><div class="emoji">🌹</div><h3>Large Bouquet</h3><div class="price">$75</div></div>
+  <div class="card"><div class="emoji">👑</div><h3>Deluxe Bouquet</h3><div class="price">$100+</div></div>
+  <div class="card"><div class="emoji">🎀</div><h3>Custom Bouquet</h3><div class="price">Starting at $50</div></div>
+</div>
+<p class="small" style="text-align:center;margin-top:22px">Prices may vary depending on flower selection and customization.</p>
+</section>
+
+<section>
+<h2>Made for every occasion 💕</h2>
+<div class="cards">
+  <div class="card">🎂<h3>Birthdays</h3></div>
+  <div class="card">🎓<h3>Graduations</h3></div>
+  <div class="card">❤️<h3>Anniversaries</h3></div>
+  <div class="card">💘<h3>Valentine's Day</h3></div>
+  <div class="card">✨<h3>Just Because</h3></div>
+  <div class="card">💌<h3>Custom Orders</h3></div>
+</div>
+</section>
+
+<section id="order">
+<h2>How to Order 💌</h2>
+<div class="steps">
+  <div class="step"><b>01 — Choose</b><p>Pick a bouquet size and tell us your preferred colors, flowers, and occasion.</p></div>
+  <div class="step"><b>02 — Request</b><p>Fill out our order form with your date, pickup/delivery preference, and special requests.</p></div>
+  <div class="step"><b>03 — Confirm</b><p>We'll contact you to confirm availability, final pricing, and payment.</p></div>
+  <div class="step"><b>04 — Bloom</b><p>Your bouquet is created with love and ready for your special moment. 🎀</p></div>
+</div>
+<div class="notice" style="margin-top:28px">
+  <strong>Ready to order?</strong><br><br>
+  <a class="btn" href="https://docs.google.com/forms/d/e/1H3v7QQo2PEQNOiq7vcPIoNmJ_F7CFHj7lbQcXkQnrPU/viewform" target="_blank">Order Form 💐</a>
+  <p class="small">24–48 hour notice is preferred. Your order is not confirmed until availability and payment are confirmed.</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Let's make something pretty 🎀</h2>
+<p class="sub">Have a question or a special idea? Send us a message!</p>
+<div style="text-align:center">
+  <a class="btn" href="https://instagram.com/bouquetsbykenadee_james" target="_blank">Instagram 💕</a>
+</div>
+</section>
+
+<footer>
+  <strong>BouquetsbyKenadee_James</strong><br>
+  <span>Fresh flowers • Custom bouquets • Special moments</span>
+  <p class="small">San Marcos, TX</p>
+</footer>
+</body>
+</html>
